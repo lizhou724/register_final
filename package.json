@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "qrcodejs2": "^0.0.2",
+	"mqtt": "^3.0.0"
+  }
+}

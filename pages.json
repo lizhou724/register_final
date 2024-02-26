@@ -1,0 +1,136 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u-(.*)": "@/components/uview-ui/components/u-$1/u-$1.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/index/enterOrQuery",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "请选择",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/index/isWeigh",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "是否过磅",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/index/visitor",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "人员登记",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/index/visitor-read",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "入厂需知",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/index/poundInfoList",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "磅单信息查询",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		
+		{
+		    "path" : "pages/index/register",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "采购车辆登记",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/index/unWeigh",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "无需过磅车辆登记",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/index/weigh",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "输入车牌",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/index/useless/enterCar",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "请选择",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/index/poundDetail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "磅单信息详情",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/index/daoyun",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "倒运单填写",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/index/register2",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "车辆登记",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/index/registerInfoSearch",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "确认提货单",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/index/registerInfo",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "确认提货单",
+		        "enablePullDownRefresh": false
+		    }
+		}
+		
+		
+	   
+		
+		
+    ],
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		
+	}
+}
